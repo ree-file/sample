@@ -1,5 +1,6 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 $navbar-color:#3c3e42;
+
 /*footer*/
 footer{
 	margin-top: 45px;
@@ -86,6 +87,12 @@ p{
 	&:hover{
 	color:#fff;
 }
+}
+#logout {
+	cursor: default;
+	&:hover {
+		background-color: transparent;
+	}
 }
 /* sidebar */
 aside{
